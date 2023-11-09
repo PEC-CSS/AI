@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Model Frontend</title>
+    </head>
+    <body>
+        <h1>Home price Prediction</h1>
+
+        <form action ="/predict" method="post">
+            <label>Area : </label>
+            <input type = "number" value="area" name="area" placeholder="Enter Area">
+            <label>Bedrooms : </label>
+            <input type = "number" value="bedrooms" name="bedrooms" placeholder="Enter Bedrooms">
+            <label>Age : </label>
+            <input type = "number" value="age" name="age" placeholder="Enter Age">
+            <button type="submit">Predict</button>
+
+            <label for="desc" class="form-label"><b>Predicted Price </b></label>
+            <p>{{result}}</p>
+        </form>
+    </body>
+</html>
