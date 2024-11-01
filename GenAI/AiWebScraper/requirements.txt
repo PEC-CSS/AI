@@ -1,0 +1,6 @@
+crewai
+langchain_google_genai
+load_dotenv
+crewai_tools
+litellm
+langchain-community
