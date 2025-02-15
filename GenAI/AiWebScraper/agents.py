@@ -1,10 +1,12 @@
 from crewai import Agent
 from tools import tool
+from crewai import Tool
 from dotenv import load_dotenv
 import os
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 import litellm
+import logging
 
 # Load environment variables
 load_dotenv()
@@ -21,6 +23,43 @@ llm = ChatOpenAI(
     max_tokens=1000
 )
 
+# Configure logging
+logging.basicConfig(
+    filename="visited_urls.log",  # Log file name
+    level=logging.INFO,  # Log only important information
+    format="%(asctime)s - Visited URL: %(message)s",  # Log timestamp and URL
+)
+
+# List to store visited URLs
+visited_urls = []
+
+# Function to log visited URLs
+def log_url(url):
+    visited_urls.append(url)
+    logging.info(url)
+
+# Create a tool to log URLs
+url_logger = Tool(
+    name="URL Logger",
+    description="Logs the URL of visited sources.",
+    function=log_url
+)
+
+# Custom Research Agent with URL Logging
+class ResearchAgent(Agent):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.visited_urls = []
+
+    def log_url(self, url):
+        """Logs a visited URL."""
+        self.visited_urls.append(url)
+        log_url(url)
+
+    def get_logged_urls(self):
+        """Returns all visited URLs."""
+        return self.visited_urls
+
 # Create agents with the configured LLM
 news_researcher = Agent(
     role="Senior Researcher",
@@ -32,7 +71,7 @@ news_researcher = Agent(
         "innovation, eager to explore and share knowledge that could change "
         "the world."
     ),
-    tools=[tool],
+    tools=[tool , url_logger],  # Add URL logging tool
     llm=llm,
     allow_delegation=True
 )
