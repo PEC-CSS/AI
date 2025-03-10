@@ -50,6 +50,16 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [K-Means Clustering Guide](https://www.kaggle.com/code/kandij/k-means-clustering-tutorial/notebook) (Kaggle tutorial)
      - [K means Clustering Algorithm](https://www.youtube.com/watch?v=EItlUEPCIzM) (video)
 
+### 4. **Clustering Quality Evaluation**
+   - **Purpose**: Clustering evaluation metrics help assess the performance of the Clustering Algorithms.
+   - **Topics to Cover**:
+     - Silhouette Score
+     - Davies Bouldin Index
+     - Adjusted Rand Score (ARI)
+   - **Resources**:
+     - [Clustering Performance Evaluation (sklearn documentation)](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation)
+     - [Clustering Metrics in Machine Learning (GeeksForGeeks)](https://www.geeksforgeeks.org/clustering-metrics/)
+
 ## 📝 Assignments and Solutions
 
 Each clustering method comes with assignments designed to help you apply the concepts you've learned. Solutions are provided for self-evaluation. Try to complete the assignments independently before checking the solutions for the best learning experience.
@@ -59,5 +69,6 @@ Each clustering method comes with assignments designed to help you apply the con
 1. **Begin with Agglomerative Clustering**: Start by understanding how hierarchical clustering builds clusters step-by-step.
 2. **Explore DBSCAN**: Learn how DBSCAN groups data based on density, making it robust for non-linear data.
 3. **Try K-Means**: Experiment with partitioning data into clusters, focusing on selecting the optimal number of clusters.
+4. **Evaluate performance**: Assess the performance of the above mentioned algorithms and find the most suitable one for your data.
 
 Happy clustering! Developing these skills will enable you to analyze data and identify patterns effectively. For further learning, refer to the documentation and tutorials linked above.
