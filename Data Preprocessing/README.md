@@ -44,6 +44,17 @@ Follow these steps to build a strong foundation in data preprocessing:
      -[A Comprehensive Guide on Exploratory Data Analysis](https://medium.com/@pabbakavya123/a-comprehensive-guide-on-exploratory-data-analysis-eda-ab38f33d6abc)
      - [ Exploratory Data Analysis And Feature Engineering](https://www.youtube.com/watch?v=fHFOANOHwh8) (video)
 
+### 3. **Data Transformation**
+   - **Purpose**: Data Transformation helps in making the data more useful and suitable for model building.
+   - **Topics to Cover**:
+     - Normalization (Min Max Normalization)
+     - Standardization (Z - Score Scaling)
+     - Log Transformation
+     - Choosing the right one for your data.
+   - **Resources**:
+     - [Data Preprocessing and Transformation (sklearn Documentation)](https://scikit-learn.org/stable/modules/preprocessing.html)
+     - [Data Transformation and its types (GeeksForGeeks)](https://www.geeksforgeeks.org/data-transformation-in-data-mining/)
+
 ## 📝 Assignments and Solutions
 
 Each section includes assignments to help you apply the concepts you've learned. Solutions are provided for self-evaluation. We recommend attempting the assignments independently before checking the solutions for the best learning experience.
