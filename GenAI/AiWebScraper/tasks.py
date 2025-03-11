@@ -1,6 +1,18 @@
 from crewai import Task
 from tools import tool
 from agents import news_researcher,news_writer
+import logging
+
+logging.basicConfig(
+    filename="visited_urls.log",  # Log file name
+    level=logging.INFO,  # Log only important information
+    format="%(asctime)s - Visited URL: %(message)s",  # Log timestamp and URL
+)
+
+def log_visited_url(url):
+    """Logs URLs discovered during research."""
+    logging.info(url)
+    news_researcher.log_url(url)
 
 # Research task
 research_task = Task(
@@ -14,6 +26,19 @@ research_task = Task(
   tools=[tool],
   agent=news_researcher,
 )
+def fetch_research_urls():
+    """Fetch URLs from the agent's research process."""
+    urls = news_researcher.get_logged_urls()  # Get dynamically logged URLs
+    if not urls:
+        print("No URLs found during research.")
+    else:
+        for url in urls:
+            log_visited_url(url)  # Log each found URL
+visited_urls = news_researcher.get_sources() 
+for url in visited_urls:
+    log_visited_url(url)
+
+fetch_research_urls()
 
 # Writing task with language model configuration
 write_task = Task(
