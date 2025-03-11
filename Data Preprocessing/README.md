@@ -60,8 +60,10 @@ Follow these steps to build a strong foundation in data preprocessing:
      -  Encoding(One-Hot Encoder)
      - Feature Scaling Techniques
      - Bining
+     - Dimensionality Reduction
  - **Resources**:
      -[One-hot Encoder(sklearn docs)(https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
+     -[Introduction to Dimensionality Reduction(GFG)(https://www.geeksforgeeks.org/dimensionality-reduction/)
 ## 📝 Assignments and Solutions
 
 Each section includes assignments to help you apply the concepts you've learned. Solutions are provided for self-evaluation. We recommend attempting the assignments independently before checking the solutions for the best learning experience.
