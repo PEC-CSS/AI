@@ -50,7 +50,19 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [K-Means Clustering Guide](https://www.kaggle.com/code/kandij/k-means-clustering-tutorial/notebook) (Kaggle tutorial)
      - [K means Clustering Algorithm](https://www.youtube.com/watch?v=EItlUEPCIzM) (video)
 
-### 4. **Clustering Quality Evaluation**
+### 4. **K-Medoids**  
+  - **Purpose**: K-Medoids is a partitioning clustering algorithm that aims to split data into a predefined number of clusters while being more 
+      robust to outliers by using medoids instead of centroids.  
+  - **Topics to Cover**:  
+    - Medoid selection and cluster assignment  
+    - PAM (Partitioning Around Medoids) algorithm  
+    - Limitations of K-Medoids (e.g., higher computational cost compared to K-Means)  
+  - **Resources**:  
+    - [K-Medoids (Scikit-Learn Alternative)](https://scikit-learn-extra.readthedocs.io/en/stable/generated/sklearn_extra.cluster.KMedoids.html)  
+    - [K-Medoids Clustering Guide](https://www.kaggle.com/code/farzanehkh/k-medoids-clustering) (Kaggle tutorial)  
+    - [K-Medoids Clustering Algorithm](https://www.youtube.com/watch?v=2qzxYfuY5aM) (video)  
+
+### 5. **Clustering Quality Evaluation**
    - **Purpose**: Clustering evaluation metrics help assess the performance of the Clustering Algorithms.
    - **Topics to Cover**:
      - Silhouette Score
