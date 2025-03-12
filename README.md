@@ -20,6 +20,7 @@ To get started with the code, you’ll need a Python environment with essential 
 This repository covers a variety of AI/ML topics, such as:
 
 - **Data Preprocessing:** Learn to clean and prepare data for ML models.
+- **Model Tuning:** Learn to optimize hyperparameters to improve a machine learning model's performance.
 - **Supervised Learning:** Implementation of algorithms like Linear Regression, Logistic Regression, Decision Trees, and Support Vector Machines.
 - **Unsupervised Learning:** Explore Clustering techniques like K-Means, Hierarchical Clustering, and Dimensionality Reduction.
 - **Neural Networks and Deep Learning:** Introduction to concepts like Perceptrons, Feedforward Networks, and Convolutional Neural Networks.
