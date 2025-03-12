@@ -1,6 +1,6 @@
 # Model Tuning
 
-Welcome to the **Model Tuning** section! his notebook explores hyperparameter tuning, a crucial step in optimizing machine learning models. By systematically adjusting model parameters, we can enhance performance and achieve better accuracy. We will compare different tuning strategies, including Grid Search, Random Search, and Bayesian Optimization.
+Welcome to the **Model Tuning** section! This notebook explores hyperparameter tuning, a crucial step in optimizing machine learning models. By systematically adjusting model parameters, we can enhance performance and achieve better accuracy. We will compare different tuning strategies, including Grid Search, Random Search, and Bayesian Optimization.
 
 **Note**: This notebook is intended for beginners, covering fundamental concepts and implementation steps. For a deeper understanding, please refer to the additional resources provided below.
 
