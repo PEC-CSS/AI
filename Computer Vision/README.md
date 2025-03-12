@@ -34,4 +34,4 @@ Each section includes assignments to help you apply the concepts you've learned.
 
 1. **Start with Autoencoders**: Learn the basics of Autoencoders along with their different types and see their practical applicatons.
 
-Happy learning! Remember, mastering these tools will set you up for success in your journey with data science and machine learning. For more comprehensive learning, refer to the documentation and tutorials linked above.
+Happy learning! Remember, mastering these tools will set you up for success in your journey with data science, machine learning and deep learning. For more comprehensive learning, refer to the documentation and tutorials linked above.
