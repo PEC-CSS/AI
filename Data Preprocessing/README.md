@@ -66,6 +66,23 @@ Follow these steps to build a strong foundation in data preprocessing:
      - [One-hot Encoder(sklearn docs)(https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
      - [Introduction to Dimensionality Reduction(GFG)(https://www.geeksforgeeks.org/dimensionality-reduction/)
 
+### 4. **Feature Selection**
+   - **Purpose**: Feature Selection helps in choosing the most relevant features from dataset to improve model performance.
+   - **Topics to Cover**:
+     - Correlation Analysis
+     - Mutual Information
+     - Recursive Feature Elimination 
+   - **Resources**:
+     1. Correlation Analysis:
+        - [Article on Correlation Analysis(blog)](https://medium.com/@sariq16/correlation-based-feature-selection-in-a-data-science-project-3ca08d2af5c6)
+        - [Youtube Video](https://www.youtube.com/watch?v=1fFVt4tQjRE)
+     2. Mutual Information:
+         - [Feature Selection using Mutual Exclusion (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html)
+         - [Article on Mutual Information (blog)](https://guhanesvar.medium.com/feature-selection-based-on-mutual-information-gain-for-classification-and-regression-d0f86ea5262a)
+     3. Recursive Feature Elimination:
+         - [Feature Selection using Recursive Feature Elimination (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
+         - [Youtube video on Recursive Feature Elimination](https://www.youtube.com/watch?v=vxdVKbAv6as)
+
 ## 📝 Assignments and Solutions
 
 Each section includes assignments to help you apply the concepts you've learned. Solutions are provided for self-evaluation. We recommend attempting the assignments independently before checking the solutions for the best learning experience.
