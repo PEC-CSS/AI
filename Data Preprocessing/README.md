@@ -54,6 +54,17 @@ Follow these steps to build a strong foundation in data preprocessing:
    - **Resources**:
      - [Data Preprocessing and Transformation (sklearn Documentation)](https://scikit-learn.org/stable/modules/preprocessing.html)
      - [Data Transformation and its types (GeeksForGeeks)](https://www.geeksforgeeks.org/data-transformation-in-data-mining/)
+### 4. **Feature Engineering**
+   - **Purpose**: Feature Engineering helps in extracting useful information from data to make models better 
+   - **Topics to Cover**:
+     -  Encoding(One-Hot Encoder)
+     - Feature Scaling Techniques
+     - Bining
+     - Dimensionality Reduction
+
+   - **Resources**:
+     - [One-hot Encoder(sklearn docs)(https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
+     - [Introduction to Dimensionality Reduction(GFG)(https://www.geeksforgeeks.org/dimensionality-reduction/)
 
 ### 4. **Feature Selection**
    - **Purpose**: Feature Selection helps in choosing the most relevant features from dataset to improve model performance.
