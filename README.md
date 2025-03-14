@@ -23,6 +23,7 @@ This repository covers a variety of AI/ML topics, such as:
 - **Supervised Learning:** Implementation of algorithms like Linear Regression, Logistic Regression, Decision Trees, and Support Vector Machines.
 - **Unsupervised Learning:** Explore Clustering techniques like K-Means, Hierarchical Clustering, and Dimensionality Reduction.
 - **Neural Networks and Deep Learning:** Introduction to concepts like Perceptrons, Feedforward Networks, and Convolutional Neural Networks.
+- **Deep Computer Vision:** Introduction to Object Detection, Image Segmentation and Image Classification.
 - **Natural Language Processing (NLP):** Basics of text processing, feature extraction, and text classification.
 - **Model Evaluation:** Techniques for evaluating model performance, such as confusion matrices, accuracy, and precision-recall.
 
