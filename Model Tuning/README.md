@@ -34,7 +34,31 @@ This folder currently includes:
 
 
 ## Happy Learning!
-   
+# Grid Search for SVM - Wine Quality Dataset
+
+## Overview
+This project applies Support Vector Machines (SVM) to the Wine Quality dataset. It explores model performance before and after hyperparameter tuning using Grid Search.
+
+## Workflow
+1. Load the Wine Quality dataset.
+2. Train an SVM model with default parameters.
+3. Use GridSearchCV to optimize `C`, `kernel`, and `gamma`.
+4. Compare performance before and after tuning.
+5. Evaluate results using classification reports.
+
+## Results Summary
+- Accuracy improved from 0.60 to 0.61 after tuning.
+- F1-score and recall slightly improved for most classes.
+- Macro and weighted averages showed minor improvements.
+
+## How to Use
+Run `grid_search_svm.ipynb` to execute the workflow and review results. Ensure required dependencies (scikit-learn, pandas, numpy, etc.) are installed.
+
+## References
+- Scikit-learn documentation: https://scikit-learn.org/
+- Wine Quality dataset: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+
+
 
 
 
