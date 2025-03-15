@@ -4,14 +4,19 @@ Welcome to the **Clustering** section! This folder provides an introduction to c
 
 **Note**: The notebooks here are designed for beginners. They introduce foundational concepts but do not cover all available clustering methods or advanced techniques. For a more comprehensive understanding, please refer to the recommended resources provided below.
 
+---
+
 ## 📂 Structure
 
 This folder currently includes:
 - **Agglomerative Clustering**: A hierarchical clustering technique based on merging clusters.
 - **DBSCAN**: A density-based clustering method, useful for identifying clusters of arbitrary shape.
 - **K-Means**: A popular clustering method that partitions data into a specified number of clusters.
+- **Spectral Clustering**: A technique for clustering data that is not linearly separable, using eigenvalues of a similarity matrix.
 
 Each section includes **assignments** to help reinforce your understanding, along with **solutions** for self-assessment.
+
+---
 
 ## 🔗 Learning Flow
 
@@ -50,6 +55,7 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [K-Means Clustering Guide](https://www.kaggle.com/code/kandij/k-means-clustering-tutorial/notebook) (Kaggle tutorial)
      - [K means Clustering Algorithm](https://www.youtube.com/watch?v=EItlUEPCIzM) (video)
 
+
 ### 4. **K-Medoids**  
   - **Purpose**: K-Medoids is a partitioning clustering algorithm that aims to split data into a predefined number of clusters while being more robust to outliers by using medoids instead of 
     centroids.  
@@ -62,8 +68,20 @@ Follow these steps to build a strong foundation in clustering techniques:
     - [K-Medoids Clustering Guide](https://www.kaggle.com/code/farzanehkh/k-medoids-clustering) (Kaggle tutorial)  
     - [K-Medoids Clustering Algorithm](https://www.youtube.com/watch?v=2qzxYfuY5aM) (video)  
 
+=======
+### 5. **Spectral Clustering**
+   - **Purpose**: Spectral Clustering is a technique for clustering data that is not linearly separable. It uses the eigenvalues of a similarity matrix to perform dimensionality reduction before clustering in the lower-dimensional space.
+   - **Topics to Cover**:
+     - Affinity matrix and graph Laplacian
+     - Eigenvalue decomposition and its role in clustering
+     - Parameter selection (e.g., `n_clusters`, `affinity`, `gamma`)
+   - **Resources**:
+     - [Spectral Clustering (Sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html)
+     - [Spectral Clustering Explained](https://towardsdatascience.com/spectral-clustering-aba2640c0d5b) (Towards Data Science)
+     - [Wikipedia: Spectral Clustering](https://en.wikipedia.org/wiki/Spectral_clustering)
 
-### 5. **Clustering Quality Evaluation**
+
+### 6. **Clustering Quality Evaluation**
    - **Purpose**: Clustering evaluation metrics help assess the performance of the Clustering Algorithms.
    - **Topics to Cover**:
      - Silhouette Score
@@ -73,15 +91,22 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [Clustering Performance Evaluation (sklearn documentation)](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation)
      - [Clustering Metrics in Machine Learning (GeeksForGeeks)](https://www.geeksforgeeks.org/clustering-metrics/)
 
+---
+
 ## 📝 Assignments and Solutions
 
 Each clustering method comes with assignments designed to help you apply the concepts you've learned. Solutions are provided for self-evaluation. Try to complete the assignments independently before checking the solutions for the best learning experience.
+
+---
 
 ## 🏁 Getting Started
 
 1. **Begin with Agglomerative Clustering**: Start by understanding how hierarchical clustering builds clusters step-by-step.
 2. **Explore DBSCAN**: Learn how DBSCAN groups data based on density, making it robust for non-linear data.
 3. **Try K-Means**: Experiment with partitioning data into clusters, focusing on selecting the optimal number of clusters.
-4. **Evaluate performance**: Assess the performance of the above mentioned algorithms and find the most suitable one for your data.
+4. **Dive into Spectral Clustering**: Understand how Spectral Clustering handles non-linearly separable data using eigenvalues and similarity matrices.
+5. **Evaluate Performance**: Assess the performance of the above-mentioned algorithms and find the most suitable one for your data.
+
+---
 
 Happy clustering! Developing these skills will enable you to analyze data and identify patterns effectively. For further learning, refer to the documentation and tutorials linked above.
