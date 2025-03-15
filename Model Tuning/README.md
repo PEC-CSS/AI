@@ -9,6 +9,9 @@ This folder currently includes:
 
 **Bayesian Optimization**: Bayesian Optimization is a sequential model-based optimization technique that builds a probabilistic model (typically using Gaussian Processes) to find optimal hyperparameters.
 
+**Random Search**: Random Search is a hyperparameter tuning method that samples random combinations of hyperparameters to find the best model performance.
+
+**Grid Search**: Grid Search is a hyperparameter tuning method that exhaustively tests all possible combinations of hyperparameters within a specified grid to find the optimal set.
 
 
 ## 🔗 Learning Flow
@@ -32,69 +35,15 @@ This folder currently includes:
 1. https://medium.com/@abelkuriakose/a-guide-to-hyperparameter-tuning-enhancing-machine-learning-models-69dc9e0f02ea
 2. Bayesian Optimization with Scikit-Optimize (Sklearn Documentation)
 
-
+<!-- 
 ## Happy Learning!
-   
+    -->
 
-
----
-
-
-# 🔍 **Random Search vs. Grid Search for Hyperparameter Tuning**  
-
-## **📌 Overview**  
+## **Random Search and Grid Search**
 When optimizing machine learning models, **hyperparameter tuning** is crucial for improving performance. Two common methods are:  
-
 - **Random Search**  (explores randomly)  
 - **Grid Search**  (systematically tests all combinations)  
-
-Each method has its advantages and trade-offs. Let's break them down:  
-
----
-
-## **⚡ 1) Random Search**  
-
-✅ **How it Works:**  
-- Instead of testing **every combination**, it **randomly selects** values from given distributions.  
-- If `n_iter=50`, it picks **50 random** sets of hyperparameters.  
-- **Faster**, but **doesn’t guarantee** finding the absolute best configuration.  
-
-💡 **Pros:**  
-✔️ More efficient for large search spaces.  
-✔️ Works well when not all parameters equally affect the outcome.  
-✔️ Can discover near-optimal solutions **quickly**.  
-
-⚠️ **Cons:**  
-❌ No guarantee of finding the best combination.  
-❌ If search space is small, it may miss better-performing configurations.  
-
----
-
-## **📊 2) Grid Search**  
-
-✅ **How it Works:**  
-- Defines a **fixed grid** of hyperparameter values.  
-- Evaluates **all possible combinations** in the grid.  
-- If we have `4 × 3 × 3 = 36` combinations, it tests **every single one**.  
-- More **accurate** but **computationally expensive**.  
-
-💡 **Pros:**  
-✔️ Ensures the best combination (if within the grid).  
-✔️ Works well when the search space is **small and well-defined**.  
-
-⚠️ **Cons:**  
-❌ Very slow for large parameter spaces.  
-❌ Computationally expensive (tests all possibilities).  
-
----
-
-## **🎯 Real-World Analogy**  
-
-| 🔄 **Random Search** | 🧐 **Grid Search** |
-|----------------------|-------------------|
-| Like trying **50 different spice combinations** at random in a recipe. You might find a great one quickly but could miss the absolute best. | Like **systematically testing every possible spice combination**. It ensures the best but takes much longer. |
-
----
+ 
 
 ## **📌 Takeaway**  
 
@@ -103,4 +52,18 @@ Each method has its advantages and trade-offs. Let's break them down:
 
 By understanding these differences, you can **choose the best approach** for your hyperparameter tuning task! 
 
----
+Unlike Bayesian Optimization, which builds a probabilistic model, Random Search and Grid Search are fundamental hyperparameter tuning techniques that systematically or randomly explore parameter spaces.
+
+### **Topics to Cover**  
+
+a. **Understanding the Methods** : Learn how **Random Search** samples random hyperparameters and how **Grid Search** exhaustively tests all possible combinations.  
+
+b. **Efficiency vs. Exhaustiveness** : When to use **Random Search** for large search spaces and when **Grid Search** is preferable(speed vs accuracy). 
+
+c. **Implementation Guide** : Apply both methods using **scikit-learn's GridSearchCV & RandomizedSearchCV** on a Decision Tree classifier.  
+
+d. **Analysis & Best Practices** : Visualize search results, interpret key metrics, and optimize hyperparameters effectively.  
+
+
+## Happy Learning!
+   
