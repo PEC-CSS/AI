@@ -1,6 +1,8 @@
 from crewai import Task
 from tools import tool
 from agents import news_researcher,news_writer
+from url_log import log_url
+import re
 
 # Research task
 research_task = Task(
