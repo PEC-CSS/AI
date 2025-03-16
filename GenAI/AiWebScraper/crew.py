@@ -14,3 +14,10 @@ crew=Crew(
 
 result=crew.kickoff(inputs={'topic':'Current trends in Ai'})
 print(result)
+
+def extract_urls_from_result(result):
+    return re.findall(r'(https?://[^\s]+)', result)
+
+urls = extract_urls_from_result(result)
+for url in urls:
+    log_url(url)
