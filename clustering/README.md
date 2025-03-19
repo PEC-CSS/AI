@@ -83,7 +83,7 @@ Follow these steps to build a strong foundation in clustering techniques:
   - **Topics to Cover**:
     - Compare K - Means, Hierarchical and DBSCAN (Density Based Spatial Clustering of Applications with Noise).
     - Compare strengths and weaknesses of each.
-    - Compare the runtime analysis.
+    - Compare the runtime complexity of each. 
  - **Resources**:
    - [Compare different clustering algorithms on toy datasets](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html) 
 
