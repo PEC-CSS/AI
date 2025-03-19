@@ -35,6 +35,7 @@ Follow these steps to build a strong foundation in GANs:
 - **Topics to Cover**:
   - CNN-based GAN training
   - Data augmentation with synthetic images
+  - Evaluating model performance.
 - **Resources**:
   - [TensorFlow GANs Guide](https://www.tensorflow.org/tutorials/generative/dcgan)
   - [Face Mask Dataset](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset)
