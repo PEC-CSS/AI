@@ -7,39 +7,17 @@ Welcome to the **Ensemble Learning** section! This notebook introduces ensemble 
 ## 📂 Contents
 
 This notebook includes:
-
-1. **Introduction to Ensemble Learning**
-   - What ensemble learning is and why it’s useful.
-   
-2. **Bias-Variance Tradeoff**
-   - Explaining the tradeoff between model bias and variance, a key concept in ensemble methods.
-   
-3. **Decision Trees**
-   - Basics of decision trees, splitting criteria, and decision tree calculations.
-   
-4. **Types of Ensemble Learning**
-   - Overview of different ensemble methods, including bagging and boosting.
-   
-5. **Data Preprocessing**
-   - Handling class imbalance, creating visualizations (histograms and scatterplots), calculating correlations, and preparing data with splitting, scaling, and managing missing values.
-   
-6. **Model Training**
-   - Training ensemble models using preprocessed data.
-   
-7. **Evaluation**
-   - Techniques for evaluating ensemble models to understand their performance.
-   
-8. **Difference Between Bagging and Random Forest**
-   - A comparison of bagging and random forest to highlight their distinctions.
-   
-9. **AdaBoost**
-   - Understanding and implementing AdaBoost, a boosting technique.
-   
-10. **Gradient Boosting**
-    - Introduction to gradient boosting, an iterative boosting method.
-    
-11. **XGBoost**
-    - Overview of XGBoost, a powerful and popular ensemble method for structured data.
+   - **Introduction to Ensemble Learning**: What ensemble learning is and why it’s useful.
+   - **Bias-Variance Tradeoff**: Explaining the tradeoff between model bias and variance, a key concept in ensemble methods.
+   - **Decision Trees**: Basics of decision trees, splitting criteria, and decision tree calculations.
+   - **Types of Ensemble Learning**: Overview of different ensemble methods, including bagging and boosting.
+   - **Data Preprocessing**: Handling class imbalance, creating visualizations (histograms and scatterplots), calculating correlations, and preparing data with splitting, scaling, and managing missing values.
+   - **Model Training**: Training ensemble models using preprocessed data.
+   - **Evaluation**: Techniques for evaluating ensemble models to understand their performance.
+   - **Difference Between Bagging and Random Forest**: A comparison of bagging and random forest to highlight their distinctions.
+   - **AdaBoost**: Understanding and implementing AdaBoost, a boosting technique.
+   - **Gradient Boosting**: Introduction to gradient boosting, an iterative boosting method.
+   - **XGBoost**: Overview of XGBoost, a powerful and popular ensemble method for structured data.
 
 ## 🔗 Learning Flow
 
@@ -50,7 +28,7 @@ This notebook includes:
 5. **Train and Evaluate Models**: Go through the model training and evaluation sections to apply ensemble techniques on real data.
 6. **Explore Advanced Methods**: Finally, dive into AdaBoost, Gradient Boosting, and XGBoost to understand more advanced boosting techniques.
 
-## 📘 Recommended Resources
+## 📘 Resources
 
 - [Hands-On Ensemble Learning with Scikit-Learn, XGBoost, LightGBM, and CatBoost](https://www.oreilly.com/library/view/hands-on-ensemble-learning/9781492090981/) (Book)
 - [Scikit-Learn Documentation on Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)
