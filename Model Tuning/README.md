@@ -28,7 +28,6 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Resources**:
      - [What is Model Tuning](https://www.iguazio.com/glossary/model-tuning/)
      - [Hyper parameter tuning](https://www.geeksforgeeks.org/hyperparameter-tuning/)
-     - 
 
 ### 2. **Explore Different Tuning Methods**
    - **Purpose**: Understand the advantages and limitations of Grid Search, Random Search, and Bayesian Optimization.
