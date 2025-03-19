@@ -9,8 +9,9 @@ Welcome to the **Generative Adversarial Networks (GANs)** section! This folder p
 ## 📂 Structure
 
 This folder currently includes:
-  - **PyTorch Implementation**: A simple GAN trained on the Fashion MNIST dataset and GAN Architectures that explore the implementations of common GAN architectures such as DCGAN and WGAN in PyTorch.
+  - **PyTorch Implementation**: A simple GAN trained on the Fashion MNIST dataset and GAN Architectures that explore the implementations of common GAN architectures in PyTorch.
   - **TensorFlow Implementation**: A GAN-based model to generate realistic masked face images using various GAN architectures like Inception V2, Xception and others
+
 Each section includes **assignments** to reinforce learning, along with **solutions** for self-assessment.
 
 ---
