@@ -26,7 +26,6 @@ Follow these steps to build a strong foundation in GANs:
   - Training loop and adversarial loss
   - Evaluating GAN-generated images
 - **Resources**:
-  - [PyTorch DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
   - [Fashion MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist)
   - [GANs Explained (Stanford CS231n)](http://cs231n.stanford.edu/reports/2017/pdfs/161.pdf)
 
