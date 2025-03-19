@@ -16,7 +16,7 @@ This folder currently includes:
 
 ---
 
-## 📘 Learning Flow
+## 🔗 Learning Flow
 
 Follow these steps to gain a strong understanding of model tuning:
 
@@ -65,13 +65,13 @@ Follow these steps to gain a strong understanding of model tuning:
 
 ---
 
-## 🔧 Assignments and Solutions
+## 📝 Assignments and Solutions
 
 Each model tuning method comes with assignments designed to help you apply the concepts you've learned. Solutions are provided for self-assessment. Try to complete the assignments independently before checking the solutions for the best learning experience.
 
 ---
 
-## 🎓 Getting Started
+## 🏁 Getting Started
 
 Follow these steps to start working with the materials in this folder:
 
