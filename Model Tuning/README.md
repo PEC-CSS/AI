@@ -25,6 +25,10 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Topics to Cover**:
      - Hyperparameter vs. model parameters
      - The importance of tuning for improving accuracy
+   - **Resources**:
+     - [What is Model Tuning](https://www.iguazio.com/glossary/model-tuning/)
+     - [Hyper parameter tuning](https://www.geeksforgeeks.org/hyperparameter-tuning/)
+     - 
 
 ### 2. **Explore Different Tuning Methods**
    - **Purpose**: Understand the advantages and limitations of Grid Search, Random Search, and Bayesian Optimization.
@@ -32,6 +36,9 @@ Follow these steps to gain a strong understanding of model tuning:
      - Overview of Grid Search, Random Search, and Bayesian Optimization
      - How Bayesian Optimization improves efficiency
      - Choosing the best approach for your task (e.g., use **Random Search** if computational resources are limited, and **Grid Search** for precision with enough time)
+   - **Resources**:
+     - [Intro To Model Tuning (different types of tuning methods)](https://www.kaggle.com/code/willkoehrsen/intro-to-model-tuning-grid-and-random-search)
+     - [Hyper parameter tuning in Machine Learning](https://www.researchgate.net/publication/381255284_Hyperparameter_Tuning_in_Machine_Learning_A_Comprehensive_Review)
 
 ### 3. **Bayesian Optimization**
    - **Purpose**: Learn how Bayesian Optimization uses probabilistic models to intelligently choose the most promising hyperparameter values.
