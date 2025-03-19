@@ -85,7 +85,9 @@ Follow these steps to build a strong foundation in clustering techniques:
     - Compare strengths and weaknesses of each.
     - Compare the runtime complexity of each. 
  - **Resources**:
-   - [Compare different clustering algorithms on toy datasets](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html) 
+   - [Compare different clustering algorithms on toy datasets](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html)
+   - [Clustering Algorithms: A comparative Approach](https://pmc.ncbi.nlm.nih.gov/articles/PMC6333366/)
+   - [Comparing different clustering algorithms (video)](https://www.youtube.com/watch?v=K_KibNSH1_0)
 
 ---
 
