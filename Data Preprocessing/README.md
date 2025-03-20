@@ -9,6 +9,9 @@ Welcome to the **Data Preprocessing** section! This folder contains resources an
 This folder currently includes:
 - **NumPy & Pandas**: Core libraries for data manipulation and numerical operations.
 - **Data Visualization**: Learn how to visually represent data insights effectively.
+- **Data Transformation**: Transform raw data into useful data.
+- **Feature Enginnering**: Extract useful information from data to make models work better and efficiently.
+- **Feature Selection**: Choose the most relevant features from the data to make robust models.
 
 Each section contains **assignments** to reinforce your understanding, along with **solutions** for self-assessment.
 
@@ -54,14 +57,14 @@ Follow these steps to build a strong foundation in data preprocessing:
    - **Resources**:
      - [Data Preprocessing and Transformation (sklearn Documentation)](https://scikit-learn.org/stable/modules/preprocessing.html)
      - [Data Transformation and its types (GeeksForGeeks)](https://www.geeksforgeeks.org/data-transformation-in-data-mining/)
+   
 ### 4. **Feature Engineering**
    - **Purpose**: Feature Engineering helps in extracting useful information from data to make models better 
    - **Topics to Cover**:
-     -  Encoding(One-Hot Encoder)
+     - Encoding(One-Hot Encoder)
      - Feature Scaling Techniques
      - Bining
      - Dimensionality Reduction
-
    - **Resources**:
      - [One-hot Encoder(sklearn docs)(https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
      - [Introduction to Dimensionality Reduction(GFG)(https://www.geeksforgeeks.org/dimensionality-reduction/)
@@ -73,15 +76,12 @@ Follow these steps to build a strong foundation in data preprocessing:
      - Mutual Information
      - Recursive Feature Elimination 
    - **Resources**:
-     1. Correlation Analysis:
-        - [Article on Correlation Analysis(blog)](https://medium.com/@sariq16/correlation-based-feature-selection-in-a-data-science-project-3ca08d2af5c6)
-        - [Youtube Video](https://www.youtube.com/watch?v=1fFVt4tQjRE)
-     2. Mutual Information:
-         - [Feature Selection using Mutual Exclusion (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html)
-         - [Article on Mutual Information (blog)](https://guhanesvar.medium.com/feature-selection-based-on-mutual-information-gain-for-classification-and-regression-d0f86ea5262a)
-     3. Recursive Feature Elimination:
-         - [Feature Selection using Recursive Feature Elimination (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
-         - [Youtube video on Recursive Feature Elimination](https://www.youtube.com/watch?v=vxdVKbAv6as)
+     - [Article on Correlation Analysis(blog)](https://medium.com/@sariq16/correlation-based-feature-selection-in-a-data-science-project-3ca08d2af5c6)
+     - [Youtube Video](https://www.youtube.com/watch?v=1fFVt4tQjRE)
+     - [Feature Selection using Mutual Exclusion (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html)
+     - [Article on Mutual Information (blog)](https://guhanesvar.medium.com/feature-selection-based-on-mutual-information-gain-for-classification-and-regression-d0f86ea5262a)
+     - [Feature Selection using Recursive Feature Elimination (sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
+     - [Youtube video on Recursive Feature Elimination](https://www.youtube.com/watch?v=vxdVKbAv6as)
 
 ## 📝 Assignments and Solutions
 
@@ -91,5 +91,8 @@ Each section includes assignments to help you apply the concepts you've learned.
 
 1. **Start with NumPy & Pandas**: Begin with arrays (NumPy) and data frames (Pandas) to build your data manipulation skills.
 2. **Move on to Data Visualization**: Use Matplotlib and Seaborn to create visualizations that highlight data insights.
+3. **Use with Data Transformation**: Learn techniques like scaling, normalization, and encoding to preprocess raw data effectively.  
+4. **Explore Feature Engineering**: Create new meaningful features from existing data to improve model performance.  
+5. **Apply Feature Selection**: Use methods like correlation analysis, mutual information, and recursive feature elimination to select the most relevant features for your model.  
 
 Happy learning! Remember, mastering these tools will set you up for success in your journey with data science and machine learning. For more comprehensive learning, refer to the documentation and tutorials linked above.
