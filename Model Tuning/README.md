@@ -15,7 +15,7 @@ This folder currently includes:
 - **Grid Search for SVM**: A practical implementation of GridSearchCV for tuning the hyperparameters of a Support Vector Machine (SVM) model on the Wine Quality dataset.
 - **Early Stopping in DNN**: A technique to prevent overfitting in Deep Neural Networks by halting training when the validation loss stops improving, demonstrated using the CIFAR-10 dataset.
 
-## 📘 Learning Flow
+## 🔗 Learning Flow
 
 Follow these steps to gain a strong understanding of model tuning:
 
@@ -24,6 +24,9 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Topics to Cover**:
      - Hyperparameter vs. model parameters
      - The importance of tuning for improving accuracy
+   - **Resources**:
+     - [What is Model Tuning](https://www.iguazio.com/glossary/model-tuning/)
+     - [Hyper parameter tuning](https://www.geeksforgeeks.org/hyperparameter-tuning/)
 
 ### 2. **Explore Different Tuning Methods**
    - **Purpose**: Understand the advantages and limitations of Grid Search, Random Search, and Bayesian Optimization.
@@ -31,6 +34,9 @@ Follow these steps to gain a strong understanding of model tuning:
      - Overview of Grid Search, Random Search, and Bayesian Optimization
      - How Bayesian Optimization improves efficiency
      - Choosing the best approach for your task (e.g., use **Random Search** if computational resources are limited, and **Grid Search** for precision with enough time)
+   - **Resources**:
+     - [Intro To Model Tuning (different types of tuning methods)](https://www.kaggle.com/code/willkoehrsen/intro-to-model-tuning-grid-and-random-search)
+     - [Hyper parameter tuning in Machine Learning](https://www.researchgate.net/publication/381255284_Hyperparameter_Tuning_in_Machine_Learning_A_Comprehensive_Review)
 
 ### 3. **Bayesian Optimization**
    - **Purpose**: Learn how Bayesian Optimization uses probabilistic models to intelligently choose the most promising hyperparameter values.
@@ -73,13 +79,13 @@ Follow these steps to gain a strong understanding of model tuning:
      - [Regularization by Early Stopping - GeeksforGeeks](https://www.geeksforgeeks.org/regularization-by-early-stopping/)
      - [Softmax and DNN - Google Developers](https://developers.google.com/machine-learning/recommendation/dnn/softmax)
 
-## 🔧 Assignments and Solutions
+## 📝 Assignments and Solutions
 
 Each model tuning method comes with assignments designed to help you apply the concepts you've learned. Solutions are provided for self-assessment. Try to complete the assignments independently before checking the solutions for the best learning experience.
 
 ---
 
-## 🎓 Getting Started
+## 🏁 Getting Started
 
 Follow these steps to start working with the materials in this folder:
 
