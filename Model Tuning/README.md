@@ -13,6 +13,7 @@ This folder currently includes:
 - **Grid Search**: A hyperparameter tuning method that exhaustively tests all possible combinations of hyperparameters within a specified grid to find the optimal set.
 - **Random Search**: A hyperparameter tuning method that samples random combinations of hyperparameters to find the best model performance.
 - **Grid Search for SVM**: A practical implementation of GridSearchCV for tuning the hyperparameters of a Support Vector Machine (SVM) model on the Wine Quality dataset.
+- **Early Stopping in DNN**: 
 
 ---
 
@@ -63,6 +64,39 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Resources**:
      - [Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 
+### 6. **Early Stopping in Deep Neural Networks (DNN)**
+
+ - **Purpose**: To demonstrates the application of **Early Stopping** to enhance training efficiency in a **Deep Neural Network (DNN)** using the **CIFAR-10 dataset**. Early Stopping mitigates overfitting by terminating training when the validation loss ceases to improve.
+- **Topics to Cover**:
+   ### 1. Early Stopping Basics
+   - **Objective**: Understand how Early Stopping improves training efficiency.
+   - **Key Topics**:
+      - Definition and purpose of Early Stopping.
+      - Role of validation loss in determining when to stop training.
+      - Configuring patience and monitoring metrics.
+
+   ### 2. Training a DNN Without Early Stopping
+   - **Objective**: Observe the effects of overfitting.
+   - **Key Topics**:
+      - Training a DNN on CIFAR-10.
+      - Analyzing training and validation loss trends.
+
+   ### 3. Implementing Early Stopping
+   - **Objective**: Apply Early Stopping to optimize training.
+   - **Key Topics**:
+      - Setting patience and restoring best weights.
+      - Comparing performance with and without Early Stopping.
+
+   ### 4. Comparing and Visualizing Results
+   - **Objective**: Assess Early Stopping's impact on training and accuracy.
+   - **Key Topics**:
+      - Comparing training times and accuracy.
+      - Visualizing loss curves to highlight improvements.
+
+   ## Resources
+- [Regularization by Early Stopping - GeeksforGeeks](https://www.geeksforgeeks.org/regularization-by-early-stopping/)
+- [Softmax and DNN - Google Developers](https://developers.google.com/machine-learning/recommendation/dnn/softmax)
+
 ---
 
 ## 🔧 Assignments and Solutions
@@ -94,6 +128,10 @@ Follow these steps to start working with the materials in this folder:
 ### 5. **Evaluate and Compare Performance**
    - Evaluate the results of your tuned models and compare them to the performance of the models before tuning.
    - Review metrics such as accuracy, F1-score, and recall.
+
+### 6. **Early Stopping in Deep Neural Networks (DNN)**
+   - Learn how to decide when to use Early Stopping based on metrics like accuracy and validation loss trends.
+   - Understand how it helps prevent overfitting while maintaining optimal model performance.
 
 ---
 
