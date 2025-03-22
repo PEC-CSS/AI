@@ -42,18 +42,21 @@ Follow these steps to build a strong foundation in NLP techniques:
 ### 3. **Sentiment Analysis**
    - **Purpose**: Analyze text data to determine the sentiment (positive, negative, neutral).
    - **Topics to Cover**:
-     -What is sentiment analysis and why is it important?
-     -Types of sentiment analysis: Binary, Multi-class, Fine-grained.
+     
+    -What is sentiment analysis and why is it important?
+     
     -Text pre-processing specific to sentiment analysis.
-    -Approaches to sentiment analysis:
+    
+     -Approaches to sentiment analysis:
          a. Rule-based methods (e.g., Lexicon-based methods)
-         b. Machine learning methods (e.g., Naive Bayes, SVM)
+         b. Machine learning methods (e.g., Naive Bayes, Logistic Regression)
          c. Deep learning methods (e.g., LSTM, BERT)
 
     
    - **Resources**:
      - [VADER (Medium article)](https://medium.com/@rslavanyageetha/vader-a-comprehensive-guide-to-sentiment-analysis-in-python-c4f1868b0d2e)
-     - [Project article using TextBlob](https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc) 
+     - [Project article using TextBlob](https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc)
+     - [Notebook on Sentiment Analysis Using BERT](https://www.kaggle.com/code/prakharrathi25/sentiment-analysis-using-bert)
      
 
 
