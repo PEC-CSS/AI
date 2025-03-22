@@ -10,15 +10,7 @@ Welcome to the **Natural Language Processing** section! This folder provides an 
 
 This folder currently includes:
 
--**Introduction to NLP**: An overview of NLP, its applications, and core concepts.
-
--**Text Preprocessing**: Techniques for preparing raw text data for analysis.
-
 -**Sentiment Analysis**: A detailed introduction to sentiment analysis, covering its techniques and applications.
-
--**Text Classification**: Introduction to classifying text into predefined categories.
-
--**Comparison of NLP Models**: Comparing different models for NLP tasks like sentiment analysis and classification.
 
 Each section includes **assignments** to help reinforce your understanding, along with **solutions** for self-assessment.
 
@@ -28,18 +20,8 @@ Each section includes **assignments** to help reinforce your understanding, alon
 
 Follow these steps to build a strong foundation in NLP techniques:
 
-### 1. **Intro to NLP**
-   - **Purpose**: Understand what NLP is, its scope, and its importance.
-   - **Topics to Cover**:
-     -What is NLP?
-     -Core components of NLP: Tokenization, Named Entity Recognition, Part-of-Speech tagging, and Lemmatization.
 
-
-### 2. **Text Preprocessing**
-   - **Purpose**: Preprocess raw text for machine learning models.
-
-
-### 3. **Sentiment Analysis**
+### 1. **Sentiment Analysis**
    - **Purpose**: Analyze text data to determine the sentiment (positive, negative, neutral).
    - **Topics to Cover**:
      
