@@ -12,6 +12,7 @@ This folder currently includes:
 - **Agglomerative Clustering**: A hierarchical clustering technique based on merging clusters.
 - **DBSCAN**: A density-based clustering method, useful for identifying clusters of arbitrary shape.
 - **K-Means**: A popular clustering method that partitions data into a specified number of clusters.
+- **K-Medoids**: A robust clustering algorithm that partitions data into clusters by selecting actual data points (medoids) as cluster centers. It minimizes the sum of dissimilarities between points and their assigned medoid, making it more resilient to outliers than K-Means.
 - **Spectral Clustering**: A technique for clustering data that is not linearly separable, using eigenvalues of a similarity matrix.
 - **Clustering Quality Evaluation**: Evaluate the performance of various clustering algorithms
 - **Comparison of Various Clustering Algorithms**: Compare various clustering algorithms to find which one suits your data the best.

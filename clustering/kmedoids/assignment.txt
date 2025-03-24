@@ -1,0 +1,15 @@
+1) What is the primary difference between K-Means and K-Medoids in terms of how they choose cluster centers?
+
+2) Why is the silhouette score used to evaluate clustering performance, and what does a higher score indicate?
+
+3) Why is K-Medoids generally considered more robust to outliers compared to K-Means?
+
+4) Which algorithm (K-Means or K-Medoids) is computationally more efficient, and why?
+
+5) In what scenarios would K-Medoids perform significantly better than K-Means?
+
+6) How can you visually determine if K-Medoids provides better clustering than K-Means?
+
+7) If clusters in a dataset have overlapping boundaries, how does it affect the performance of K-Means and K-Medoids?
+
+8) What types of datasets (e.g., categorical, numerical, mixed) are better suited for K-Medoids rather than K-Means?
