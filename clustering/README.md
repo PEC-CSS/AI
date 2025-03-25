@@ -58,7 +58,16 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [K-Means Clustering Guide](https://www.kaggle.com/code/kandij/k-means-clustering-tutorial/notebook) (Kaggle tutorial)
      - [K means Clustering Algorithm](https://www.youtube.com/watch?v=EItlUEPCIzM) (video)
 
-### 4. **Spectral Clustering**
+### 4. **K-Medoids**
+   - **Purpose**: K-Medoids is a partitioning clustering algorithm that selects actual data points (medoids) as cluster centers, making it more robust to outliers than K-Means.
+   - **Topics to Cover**:
+     - Medoid selection and cluster assignment
+     - Differences between K-Medoids and K-Means (e.g., robustness to noise and outliers)
+   - **Resources**:
+     - [K-Medoids (Sklearn extra Documentation)](https://scikit-learn-extra.readthedocs.io/en/stable/generated/sklearn_extra.cluster.KMedoids.html)
+     - [K-Medoids (pyclustering documentation)](https://pyclustering.github.io/docs/0.9.0/html/d0/dd3/classpyclustering_1_1cluster_1_1kmedoids_1_1kmedoids.html) 
+
+### 5. **Spectral Clustering**
    - **Purpose**: Spectral Clustering is a technique for clustering data that is not linearly separable. It uses the eigenvalues of a similarity matrix to perform dimensionality reduction before clustering in the lower-dimensional space.
    - **Topics to Cover**:
      - Affinity matrix and graph Laplacian
@@ -69,7 +78,7 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [Spectral Clustering Explained](https://towardsdatascience.com/spectral-clustering-aba2640c0d5b) (Towards Data Science)
      - [Wikipedia: Spectral Clustering](https://en.wikipedia.org/wiki/Spectral_clustering)
 
-### 5. **Clustering Quality Evaluation**
+### 6. **Clustering Quality Evaluation**
    - **Purpose**: Clustering evaluation metrics help assess the performance of the Clustering Algorithms.
    - **Topics to Cover**:
      - Silhouette Score
@@ -79,7 +88,7 @@ Follow these steps to build a strong foundation in clustering techniques:
      - [Clustering Performance Evaluation (sklearn documentation)](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation)
      - [Clustering Metrics in Machine Learning (GeeksForGeeks)](https://www.geeksforgeeks.org/clustering-metrics/)
 
-## 6. **Comparing Various Clustering Algorithms**
+## 7. **Comparing Various Clustering Algorithms**
   - **Purpose**: Comparing different clustering algorithms.
   - **Topics to Cover**:
     - Compare K - Means, Hierarchical and DBSCAN (Density Based Spatial Clustering of Applications with Noise).
@@ -103,9 +112,10 @@ Each clustering method comes with assignments designed to help you apply the con
 1. **Begin with Agglomerative Clustering**: Start by understanding how hierarchical clustering builds clusters step-by-step.
 2. **Explore DBSCAN**: Learn how DBSCAN groups data based on density, making it robust for non-linear data.
 3. **Try K-Means**: Experiment with partitioning data into clusters, focusing on selecting the optimal number of clusters.
-4. **Dive into Spectral Clustering**: Understand how Spectral Clustering handles non-linearly separable data using eigenvalues and similarity matrices.
-5. **Evaluate Performance**: Assess the performance of the above-mentioned algorithms and find the most suitable one for your data.
-6. **Explore various clustering algorithms**: Experiment with various other clustering algorithms to compare and see which one is the best for your data.
+4. **Try K-Medoids**: Experiment with partitioning data into clusters while minimizing dissimilarity within each cluster. Unlike K-Means, K-Medoids selects actual data points as cluster centers, making it more robust to outliers
+5. **Dive into Spectral Clustering**: Understand how Spectral Clustering handles non-linearly separable data using eigenvalues and similarity matrices.
+6. **Evaluate Performance**: Assess the performance of the above-mentioned algorithms and find the most suitable one for your data.
+7. **Explore various clustering algorithms**: Experiment with various other clustering algorithms to compare and see which one is the best for your data.
 
 ---
 
