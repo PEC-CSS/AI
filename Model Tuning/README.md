@@ -12,6 +12,7 @@ This folder currently includes:
 - **Bayesian Optimization**: A sequential model-based optimization technique that builds a probabilistic model (often using Gaussian Processes) to identify the optimal hyperparameters.
 - **Grid Search**: A hyperparameter tuning method that exhaustively tests all possible combinations of hyperparameters within a specified grid to find the optimal set.
 - **Random Search**: A hyperparameter tuning method that samples random combinations of hyperparameters to find the best model performance.
+- **Optuna for Automated Hyperparameter tuning**: A powerful framework that intelligently searches for the best hyperparameters using optimization algorithms and pruning strategies to accelerate training.
 - **Grid Search for SVM**: A practical implementation of GridSearchCV for tuning the hyperparameters of a Support Vector Machine (SVM) model on the Wine Quality dataset.
 - **Early Stopping in DNN**: A technique to prevent overfitting in Deep Neural Networks by halting training when the validation loss stops improving, demonstrated using the CIFAR-10 dataset.
 
@@ -38,7 +39,17 @@ Follow these steps to gain a strong understanding of model tuning:
      - [Intro To Model Tuning (different types of tuning methods)](https://www.kaggle.com/code/willkoehrsen/intro-to-model-tuning-grid-and-random-search)
      - [Hyper parameter tuning in Machine Learning](https://www.researchgate.net/publication/381255284_Hyperparameter_Tuning_in_Machine_Learning_A_Comprehensive_Review)
 
-### 3. **Bayesian Optimization**
+### 3. ** Optuna for Automated Hyperparameter Tuning**
+   - **Purpose**: Learn how to use Optuna to automate hyperparameter tuning, efficiently searching for the best model parameters.
+   - **Topics to Cover**:
+     - Introduction to Optuna: A state-of-the-art framework for optimizing hyperparameters.
+     - How Optuna iterates over different parameter sets to maximize model accuracy.
+     - How Optuna stops unpromising trials early to save computation time.
+   - **Resources**:
+     - [optuna Documentation](https://optuna.readthedocs.io/en/stable/index.html)
+        
+
+### 4. **Bayesian Optimization**
    - **Purpose**: Learn how Bayesian Optimization uses probabilistic models to intelligently choose the most promising hyperparameter values.
    - **Topics to Cover**:
      - Understanding Bayesian Optimization, acquisition functions (e.g., Expected Improvement, Probability of Improvement, Upper Confidence Bound)
@@ -49,7 +60,7 @@ Follow these steps to gain a strong understanding of model tuning:
      - [A Guide to Hyperparameter Tuning](https://medium.com/@abelkuriakose/a-guide-to-hyperparameter-tuning-enhancing-machine-learning-models-69dc9e0f02ea)
      - [Bayesian Optimization with Scikit-Optimize (Sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
 
-### 4. **Grid Search and Random Search**
+### 5. **Grid Search and Random Search**
    - **Purpose**: Understand the strengths and limitations of Grid Search and Random Search, and when to use each method.
    - **Topics to Cover**:
      - **Grid Search**: Exhaustively tests all combinations of hyperparameters.
@@ -60,7 +71,7 @@ Follow these steps to gain a strong understanding of model tuning:
      - [GridSearchCV (Sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
      - [RandomizedSearchCV (Sklearn Documentation)](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
 
-### 5. **Grid Search for SVM - Wine Quality Dataset**
+### 6. **Grid Search for SVM - Wine Quality Dataset**
    - **Purpose**: Optimize hyperparameters of a Support Vector Machine (SVM) using GridSearchCV on the Wine Quality dataset.
    - **Topics to Cover**:
      - Using GridSearchCV to tune `C`, `kernel`, and `gamma` for better SVM performance.
@@ -68,7 +79,7 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Resources**:
      - [Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 
-### 6. **Early Stopping in Deep Neural Networks (DNN)**
+### 7. **Early Stopping in Deep Neural Networks (DNN)**
    - **Purpose**: Understand how Early Stopping enhances training efficiency and prevents overfitting in Deep Neural Networks (DNN), demonstrated using the CIFAR-10 dataset.
    - **Topics to Cover**:
       - **Early Stopping Basics**: Understand validation loss, patience, and monitored metrics for stopping training.
@@ -97,19 +108,23 @@ Follow these steps to start working with the materials in this folder:
    - Learn how **Grid Search** and **Random Search** help find the best hyperparameters.
    - Understand the advantages and disadvantages of these methods for model tuning.
 
-### 3. **Dive into Bayesian Optimization**
-   - Explore how **Bayesian Optimization** uses probabilistic models to make more efficient hyperparameter tuning decisions.
-   - Implement Bayesian optimization in a machine learning model.
+### 3. **Explore Optuna for Automated Hyperparameter Tuning**
+   -Implement Optuna for hyperparameter tuning and understand its advantages over traditional methods.
+   
 
-### 4. **Work with Grid Search for SVM**
+### 4. **Dive into Bayesian Optimization**
+   - Explore how **Bayesian Optimization** uses probabilistic models to make more efficient hyperparameter tuning decisions.
+   - Implement Bayesian optimization in a machine learning model.   
+
+### 5. **Work with Grid Search for SVM**
    - **Grid Search for SVM**: Start by tuning hyperparameters for a Support Vector Machine using GridSearchCV on the **Wine Quality dataset**.
    - Experiment with tuning `C`, `kernel`, and `gamma` parameters for SVM.
 
-### 5. **Evaluate and Compare Performance**
+### 6. **Evaluate and Compare Performance**
    - Evaluate the results of your tuned models and compare them to the performance of the models before tuning.
    - Review metrics such as accuracy, F1-score, and recall.
 
-### 6. **Early Stopping in Deep Neural Networks (DNN)**
+### 7. **Early Stopping in Deep Neural Networks (DNN)**
    - Learn how to decide when to use Early Stopping based on metrics like accuracy and validation loss trends.
    - Understand how it helps prevent overfitting while maintaining optimal model performance.
 
