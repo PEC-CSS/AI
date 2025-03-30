@@ -39,7 +39,7 @@ Follow these steps to gain a strong understanding of model tuning:
      - [Intro To Model Tuning (different types of tuning methods)](https://www.kaggle.com/code/willkoehrsen/intro-to-model-tuning-grid-and-random-search)
      - [Hyper parameter tuning in Machine Learning](https://www.researchgate.net/publication/381255284_Hyperparameter_Tuning_in_Machine_Learning_A_Comprehensive_Review)
 
-### 3. ** Optuna for Automated Hyperparameter Tuning**
+### 3. **Optuna for Automated Hyperparameter Tuning**
    - **Purpose**: Learn how to use Optuna to automate hyperparameter tuning, efficiently searching for the best model parameters.
    - **Topics to Cover**:
      - Introduction to Optuna: A state-of-the-art framework for optimizing hyperparameters.
