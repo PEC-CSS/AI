@@ -109,7 +109,7 @@ Follow these steps to start working with the materials in this folder:
    - Understand the advantages and disadvantages of these methods for model tuning.
 
 ### 3. **Explore Optuna for Automated Hyperparameter Tuning**
-   -Implement Optuna for hyperparameter tuning and understand its advantages over traditional methods.
+   - Implement Optuna for hyperparameter tuning and understand its advantages over traditional methods.
    
 
 ### 4. **Dive into Bayesian Optimization**
