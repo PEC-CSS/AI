@@ -10,7 +10,8 @@ Welcome to the **Natural Language Processing** section! This folder provides an 
 
 This folder currently includes:
 
--**Sentiment Analysis**: A detailed introduction to sentiment analysis, covering its techniques and applications.
+- **Sentiment Analysis**: A detailed introduction to sentiment analysis, covering its techniques and applications.
+- **Evaluation Metrics**: Compare traditional rule-based QA (TF-IDF + BM25), extractive models (BERT, RoBERTa), and generative models (T5, GPT-4) using Exact Match (EM), F1-score, and response coherence.
 
 Each section includes **assignments** to help reinforce your understanding, along with **solutions** for self-assessment.
 
@@ -24,27 +25,74 @@ Follow these steps to build a strong foundation in NLP techniques:
 ### 1. **Sentiment Analysis**
    - **Purpose**: Analyze text data to determine the sentiment (positive, negative, neutral).
    - **Topics to Cover**:
-     
-    -What is sentiment analysis and why is it important?
-     
-    -Text pre-processing specific to sentiment analysis.
-    
-     -Approaches to sentiment analysis:
-         a. Rule-based methods (e.g., Lexicon-based methods)
-         b. Machine learning methods (e.g., Naive Bayes, Logistic Regression)
-         c. Deep learning methods (e.g., LSTM, BERT)
-
-    
+     - What is sentiment analysis and why is it important?
+     - Text pre-processing specific to sentiment analysis.
+     - Approaches to sentiment analysis:
+       - Rule-based methods (e.g., Lexicon-based methods)
+       - Machine learning methods (e.g., Naive Bayes, Logistic Regression)
+       - Deep learning methods (e.g., LSTM, BERT)
    - **Resources**:
      - [VADER (Medium article)](https://medium.com/@rslavanyageetha/vader-a-comprehensive-guide-to-sentiment-analysis-in-python-c4f1868b0d2e)
      - [Project article using TextBlob](https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc)
      - [Notebook on Sentiment Analysis Using BERT](https://www.kaggle.com/code/prakharrathi25/sentiment-analysis-using-bert)
-     
 
+### 2. **Traditional QA (TF-IDF + BM25)**
+   - **Purpose**: Retrieve answers using statistical methods.
+   - **Topics to Cover**:
+     - TF-IDF Vectorization
+     - BM25 Ranking Algorithm
+     - Implementing a simple QA system using these methods
+   - **Resources**:
+     - [BM25 Explanation (Wikipedia)](https://en.wikipedia.org/wiki/Okapi_BM25)
+     - [TF-IDF Overview (Scikit-Learn)](https://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting)
+     - **Practical Implementations**:
+       - [TF-IDF + BM25 for QA (Kaggle Notebook)](https://www.kaggle.com/code/lykin22/tf-idf-and-bm25-for-document-retrieval)
+       - [BM25 in Python (Tutorial)](https://towardsdatascience.com/how-to-implement-bm25-in-python-7f39e00a9bf3)
+     - **Research Papers**:
+       - [The Probabilistic Relevance Framework: BM25 and Beyond](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-446.pdf)
+     - **Libraries**:
+       - [Rank-BM25 (Python Implementation)](https://pypi.org/project/rank-bm25/)
 
+### 3. **Extractive QA (BERT, RoBERTa)**
+   - **Purpose**: Extract exact answers from the given text.
+   - **Topics to Cover**:
+     - Transformer Architecture (BERT, RoBERTa)
+     - Fine-tuning on SQuAD dataset
+     - Handling long-context QA
+   - **Resources**:
+     - **Hugging Face Tutorials**:
+       - [BERT for QA (Hugging Face)](https://huggingface.co/transformers/model_doc/bert.html)
+       - [Fine-tuning BERT on SQuAD (Hugging Face Guide)](https://huggingface.co/transformers/custom_datasets.html#question-answering-with-squad-2-0)
+     - **Practical Implementations**:
+       - [BERT for QA (Kaggle Notebook)](https://www.kaggle.com/code/abhinand05/bert-for-humans-tutorial-baseline)
+       - [RoBERTa for QA (Tutorial)](https://towardsdatascience.com/question-answering-with-roberta-and-bert-c7e6f5a6e0a8)
+     - **Research Papers**:
+       - [BERT: Pre-training of Deep Bidirectional Transformers (Original Paper)](https://arxiv.org/abs/1810.04805)
+       - [RoBERTa: A Robustly Optimized BERT Approach](https://arxiv.org/abs/1907.11692)
+     - **Advanced Topics**:
+       - [Longformer for Long-Document QA](https://arxiv.org/abs/2004.05150)
+
+### 4. **Generative QA (T5, GPT-4)**
+   - **Purpose**: Generate answers based on context.
+   - **Topics to Cover**:
+     - Sequence-to-sequence models
+     - Fine-tuning T5 on QA datasets
+     - Zero-shot and few-shot QA with GPT-4
+   - **Resources**:
+     - **Hugging Face Tutorials**:
+       - [T5 Model (Hugging Face)](https://huggingface.co/transformers/model_doc/t5.html)
+       - [Fine-tuning T5 for QA (Tutorial)](https://towardsdatascience.com/fine-tuning-t5-for-question-answering-7b6a8e62a271)
+     - **OpenAI & GPT-4**:
+       - [GPT-4 Technical Report](https://openai.com/research/gpt-4)
+       - [GPT-4 for QA (OpenAI Cookbook)](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb)
+     - **Practical Implementations**:
+       - [T5 for QA (Kaggle Notebook)](https://www.kaggle.com/code/abhinand05/t5-for-question-generation-pytorch)
+       - [GPT-3/GPT-4 QA (Tutorial)](https://towardsdatascience.com/question-answering-with-gpt-3-5-and-gpt-4-a-comparison-4f2a8b4f9a4e)
+     - **Research Papers**:
+       - [Exploring the Limits of Transfer Learning with T5](https://arxiv.org/abs/1910.10683)
+       - [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)
 
 ---
-
 
 ## 🏁 Getting Started
 
@@ -57,4 +105,6 @@ Follow these steps to build a strong foundation in NLP techniques:
 
 ---
 
-Happy learning!
+Happy learning! 🚀  
+
+Let me know if you'd like any further refinements!
