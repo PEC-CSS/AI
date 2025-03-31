@@ -43,10 +43,13 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Purpose**: Learn how to use Optuna to automate hyperparameter tuning, efficiently searching for the best model parameters.
    - **Topics to Cover**:
      - Introduction to Optuna: A state-of-the-art framework for optimizing hyperparameters.
-     - How Optuna iterates over different parameter sets to maximize model accuracy.
-     - How Optuna stops unpromising trials early to save computation time.
+     - Understanding  How Optuna iterates over different parameter sets to maximize model accuracy.
+     - Optuna stops unpromising trials early to save computation time.
+     - Using  cross-validation, which  ensures robust model evaluation by testing on multiple data subsets.
    - **Resources**:
      - [optuna Documentation](https://optuna.readthedocs.io/en/stable/index.html)
+     - [Article on cross-validation](https://www.geeksforgeeks.org/cross-validation-machine-learning/)
+
         
 
 ### 4. **Bayesian Optimization**
