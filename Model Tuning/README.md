@@ -92,6 +92,16 @@ Follow these steps to gain a strong understanding of model tuning:
    - **Resources**:
      - [Regularization by Early Stopping - GeeksforGeeks](https://www.geeksforgeeks.org/regularization-by-early-stopping/)
      - [Softmax and DNN - Google Developers](https://developers.google.com/machine-learning/recommendation/dnn/softmax)
+   ### 8. **Keras Tuner for Hyperparameter Optimization**
+   - **Purpose**: Learn how Keras Tuner helps optimize deep learning models.
+   - **Topics to Cover**:
+     - Introduction to **Keras Tuner** and its tuning strategies (Hyperband, Random Search, Bayesian Optimization).
+     - How to use Keras Tuner to optimize layer sizes, learning rates, and activation functions.
+     - Comparing model performance before and after tuning.
+   - **Resources**:
+     - [Keras Tuner Documentation](https://keras.io/guides/keras_tuner/)
+     - [Keras Tuner Tutorial - TensorFlow](https://www.tensorflow.org/tutorials/keras/keras_tuner)
+
 
 ## 📝 Assignments and Solutions
 
@@ -130,6 +140,13 @@ Follow these steps to start working with the materials in this folder:
 ### 7. **Early Stopping in Deep Neural Networks (DNN)**
    - Learn how to decide when to use Early Stopping based on metrics like accuracy and validation loss trends.
    - Understand how it helps prevent overfitting while maintaining optimal model performance.
+
+### 8. **Keras Tuner for Hyperparameter Optimization**
+   - Learn how to use Keras Tuner for optimizing deep learning models efficiently.
+   - Understand different search strategies: Hyperband, Random Search, and Bayesian Optimization.
+   - Implement Keras Tuner to tune parameters like learning rate, number of layers, and activation functions.
+   - Compare performance before and after hyperparameter tuning.
+
 
 ---
 
