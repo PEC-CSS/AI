@@ -14,6 +14,8 @@ This folder currently includes:
 - **Evaluation Metrics**: Compare traditional rule-based QA (TF-IDF + BM25), extractive models (BERT, RoBERTa), and generative models (T5, GPT-4) using Exact Match (EM), F1-score, and response coherence.
 - **Text Classification**: Cmpares traditional machine learning and deep learning models for classifying text data. Whether you're building a spam detector or analyzing sentiments, text classification is a core task in **Natural Language Processing (NLP)**.
 
+- **Machine Translation Comparison**: A notebook comparing multiple machine translation approaches including SMT, Seq2Seq, and Transformer-based models (T5, GPT, M2M-100) using BLEU scores and human evaluation.
+
 Each section includes **assignments** to help reinforce your understanding, along with **solutions** for self-assessment.
 
 ---
@@ -108,6 +110,19 @@ Follow these steps to build a strong foundation in NLP techniques:
 - [Transformers for LLMs ](https://medium.com/@jimwang3589/what-are-the-different-transformers-for-llms-like-bert-chatgpt-and-google-flan-t5-2a52f4dd132f)
 - [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/en/tasks/sequence_classification)
 
+### 6. **Machine Translation Comparison**
+- **Purpose**: Help users understand different machine translation techniques by applying multiple models on the same dataset and comparing their results.
+- **Tasks**:
+  - Compare **Statistical Machine Translation (SMT)**, **Seq2Seq**, and **Transformer-based** models.
+  - Evaluate Google's **T5**, OpenAI's **GPT**, and Meta’s **M2M-100** on the same translation dataset.
+  - Provide **BLEU scores** and qualitative **human evaluation insights** for each model.
+- **Resources**:
+  - [BLEU Score Explanation (Wikipedia)](https://en.wikipedia.org/wiki/BLEU)
+  - [T5 Overview – Hugging Face](https://huggingface.co/transformers/model_doc/t5.html)
+  - [Meta AI’s M2M-100 Model](https://ai.facebook.com/blog/m2m-100-open-and-multilingual-machine-translation/)
+  - [OpenAI GPT Models](https://platform.openai.com/docs/guides/gpt)
+  - [Seq2Seq Models Overview](https://machinelearningmastery.com/encoder-decoder-attention-sequence-to-sequence-prediction-keras/)
+
 ---
 
 ## 🏁 Getting Started
@@ -118,6 +133,7 @@ Follow these steps to build a strong foundation in NLP techniques:
 4. **Move on to Text Classification**: Try classifying text data into different categories.
 5. **Evaluate Your Models**: Use various metrics to assess the performance of your NLP models.
 6. **Compare Various NLP Models**: Experiment with and compare different models for NLP tasks.
+7. **Explore Machine Translation Models**: Analyze and evaluate translation models using both automated scores and human judgment.
 
 ---
 
