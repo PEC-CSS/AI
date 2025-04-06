@@ -12,6 +12,7 @@ This folder currently includes:
 
 - **Sentiment Analysis**: A detailed introduction to sentiment analysis, covering its techniques and applications.
 - **Evaluation Metrics**: Compare traditional rule-based QA (TF-IDF + BM25), extractive models (BERT, RoBERTa), and generative models (T5, GPT-4) using Exact Match (EM), F1-score, and response coherence.
+- **Text Classification**: Cmpares traditional machine learning and deep learning models for classifying text data. Whether you're building a spam detector or analyzing sentiments, text classification is a core task in **Natural Language Processing (NLP)**.
 
 Each section includes **assignments** to help reinforce your understanding, along with **solutions** for self-assessment.
 
@@ -91,6 +92,21 @@ Follow these steps to build a strong foundation in NLP techniques:
      - **Research Papers**:
        - [Exploring the Limits of Transfer Learning with T5](https://arxiv.org/abs/1910.10683)
        - [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)
+
+### 5. **Text Classification**
+   - **Purpose**: Categorize text into predefined labels such as spam/ham, topic categories, or sentiment classes.
+   - **Topics to Cover**:
+      - **Naive Bayes**: Fast, simple, and effective for clean datasets.
+      - **Logistic Regression**: A good, interpretable baseline for binary text classification.
+      - **Random Forest**: Captures feature interactions and non-linear patterns.
+      - **LSTM (Long Short-Term Memory)**: Great for handling sequences and capturing context.
+      - **Transformers (BERT)**: State-of-the-art models for understanding language and context.
+
+   - **Resources**:
+- [Text Classification Overview ](https://levity.ai/blog/text-classification)
+- [Understanding LSTMs ](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Transformers for LLMs ](https://medium.com/@jimwang3589/what-are-the-different-transformers-for-llms-like-bert-chatgpt-and-google-flan-t5-2a52f4dd132f)
+- [Hugging Face Transformers Documentation](https://huggingface.co/docs/transformers/en/tasks/sequence_classification)
 
 ---
 
